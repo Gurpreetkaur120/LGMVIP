@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Management System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Result Management System</h1>
+        <form id="addForm">
+            <input type="text" id="name" placeholder="Student Name" required>
+            <input type="number" id="score" placeholder="Score" required>
+            <button type="button" id="addButton">Add Student</button>
+        </form>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Score</th>
+                <th>Grade</th>
+            </tr>
+            <tbody id="resultsTable">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
